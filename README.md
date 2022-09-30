@@ -54,22 +54,31 @@ TechnologyClass : type
 
 ### ProjectType
 
-| type    | platform       |
-| ------- | -------------- |
-| desktop | cross platform |
-| desktop | macOS          |
-| desktop | windows        |
-| desktop | linux          |
-| mobile  | iOS            |
-| mobile  | android        |
-| mobile  | cross platform |
-| web     | full stack     |
-| web     | backend        |
-| web     | frontend       |
+| super type         | type     | platform       |
+| ------------------ | -------- | -------------- |
+| software           | desktop  | cross platform |
+| software           | desktop  | macOS          |
+| software           | desktop  | windows        |
+| software           | desktop  | linux          |
+| software           | mobile   | iOS            |
+| software           | mobile   | android        |
+| software           | mobile   | cross platform |
+| software           | web      | full stack     |
+| software           | web      | backend        |
+| software           | web      | frontend       |
+| design             | app      |                |
+| design             | branding |                |
+| design             | logo     |                |
+| design             | print    |                |
+| design             | website  |                |
+| project management |          |                |
+| DevOps             |          |                |
+| Hardware           |          |                |
+| Hardware           | iot      |                |
 
 ### TechnologyClass
 
-| class                |
+| classification       |
 | -------------------- |
 | Programming Language |
 | Framework            |
